@@ -21,6 +21,9 @@ DocumentRoot "C:/wwwroot/vali"
     Require all granted
 </Directory>
 
+2bis) configure httpd.con changing the  ScriptAlias line according to :
+	ScriptAlias /cgi-bin/ "C:/wwwroot/vali/cgi-bin/"
+
 3)deploy the valiserver files at your webserver document root directory
 
 4) configure the vali-igc.conf for the following directory variables
