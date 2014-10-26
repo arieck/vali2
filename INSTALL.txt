@@ -1,4 +1,4 @@
-1)Installed Apache2 + Perl on Windows 32bit platform
+﻿1)Installed Apache2 + Perl on Windows 32bit platform
   for example using xampp on Windows 7 or Windows 2008
   see www.apachefriends.org/en/xampp.html‎
   
@@ -20,6 +20,8 @@ DocumentRoot "C:/wwwroot/vali"
 	Allow from all
     Require all granted
 </Directory>
+
+ScriptAlias /cgi-bin/ "C:/wwwroot/vali/cgi-bin/ 
 
 3)deploy the valiserver files at your webserver document root directory
 
