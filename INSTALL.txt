@@ -1,6 +1,14 @@
 ﻿1)Installed Apache2 + Perl on Windows 32bit platform
   for example using xampp on Windows 7 or Windows 2008
   see www.apachefriends.org/en/xampp.html‎
+
+Make sure that you have the following both packages installed
+
+Microsoft Visual C++ 2008 Redistributable Package (x86)
+
+Microsoft Visual C++ 2010 Redistributable Package (x86)
+
+... otherwise some vali.exe programs won't work
   
 2)configure the httpd.conf accordingly, for example:
 
